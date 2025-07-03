@@ -1,0 +1,12 @@
+version: "3.9"
+services:
+  scoring:
+    build: ./scoring-engine
+    container_name: hdr-scoring
+    ports:
+      - "8500:8500"
+    deploy:
+      resources:
+        limits:
+          cpus: "2.0"
+          memory: 3g
