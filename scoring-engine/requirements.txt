@@ -1,4 +1,11 @@
-
+numpy==1.26.4
+rawpy==0.23.2
+opencv-python-headless==4.8.1.78
 fastapi==0.111.0
 uvicorn==0.29.0
-pillow
+pillow==10.3.0
+
+streamlit==1.46.1
+requests
+requests-toolbelt
+
